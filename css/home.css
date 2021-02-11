@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 4vw;
+    align-items: center;
+}
+
+.header__logo {
+    width: 30vw;
+}
+
+.menu__item {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #fff;
+    padding: 1.2vw 2.7vw;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.menu__item:hover{
+    background-color: darkred;
+}
+
+.section {
+    background: url(../imagenes/fondo-min.jpg);
+    height: 50vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectiton__parrafo {
+    color: #fff;
+    font-size: 2vw;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.section__titulo {
+    margin: 3vw 0vw;
+    color:#ffffbf;
+    font-size: 4vw;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.section__about {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 1vw;
+    padding: 2vw;
+    margin: 2vw 0vw;
+}
+
+.section__yo {
+    width: 20vw;
+    border-radius:4vw;
+    margin: 1vw;
+}
+
+.works__titulo {
+    background-color: red;
+    padding: 1vw;
+    color:#ffffbf;
+    font-size: 4vw;
+    text-align: center;
+}
+
+
+
+.bodyHome {
+    min-height: 100vh;
+}
+
+.work__foto {
+    width: 40vw;
+    height: auto;
+    margin: 0 2vw;
+    border-radius: 4vw;
+}
+
+.work__item {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 1vw;
+    padding: 2vw;
+    margin: 2vw auto;
+}
+
+.work__texto {
+    margin: 2vw;
+    color: #fff;
+    font-size: 2vw; 
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.works__trabajos {
+    background-color: red;
+    color: #ffffbf;
+    font-size: 4vw;
+    padding: 2vw 0vw;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#works {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.hr {
+    width: 80%;
+    margin:0 auto;
+}
+
+#contacto {
+    background-color: darkred;
+    width: 100%;
+    height: 24vw;
+    margin: 2vw 0vw 0vw 0vw;
+    padding: 2vw;
+}
+
+
+
+.contacto__titulo {
+    color: #fff;
+    font-size: 4vw;
+    padding: 2vw 0vw;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.icono {
+    width: 7vw;
+    margin: 0vw 2vw;
+}
+
+.icono:hover{
+    width: 8vw;
+}
+
+.titulo__icono {
+    font-size: 1.8vw;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.redesSociales {
+    display: flex;
+    width: 8vw;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+.contenedorFooter {
+    display: flex;
+    justify-content: space-around
+}
+
+
+@media (max-width:720px){
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header__logo{
+        width: 70vw;
+    }
+    
+    .menu{
+        display: flex;
+        flex-direction: column;
+        background: rgba(0,0,0,0.5);
+        padding: 1vw 35vw;
+        margin: 2vw;
+    }
+    
+    .menu__item{
+        font-size: 3vw;
+    }
+    
+    .sectiton__parrafo{
+        font-size: 4vw;
+    }
+    
+    .section__about{
+        height: auto;
+        padding: 5vw;
+        margin: 0;
+        flex-direction: column;
+
+    }
+    
+    .section{
+        height: auto;  
+        padding: 5vw;
+        background: url(../imagenes/FONDO%20MOVIL.jpg);
+    }
+    
+    .section__yo{
+        width: 50vw;
+    }
+    
+    .section__titulo{
+        font-size: 6vw;
+    }
+    
+    .works__trabajos{
+        font-size: 6vw;
+    }
+    
+    .work__texto{
+        font-size: 3vw;
+    }
+    
+    .work__foto{
+        width: 75vw;
+        margin: 0;
+    }
+    
+    .work__item{
+        display: flex;
+        flex-direction: column;
+        padding: 3vw;
+        width: 90%;
+    }
+    
+    
+    
+    
+    
+    
+}
